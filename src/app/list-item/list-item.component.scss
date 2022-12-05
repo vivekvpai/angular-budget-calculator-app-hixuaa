@@ -1,0 +1,28 @@
+$green: #28a745;
+$red: #dc3545;
+
+.section-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+    .div-item{
+      width: 650px;
+      // min-height: 250px;
+      h4{
+        text-transform: uppercase;
+      }
+
+      .income{
+        h4{
+          color: $green;
+        }
+      }
+
+      .expenses{
+        h4{
+          color: $red;
+        }
+      }
+    }
+}
